@@ -12,7 +12,7 @@ import torch.distributed as dist
 
 from tools.pseudo_face_data import faces_data
 from tools.utils import save_tensor_image, AverageMeter
-from models.face_trainer import Face_Model
+from models.face_model import Face_Model
 
 main_parse = argparse.ArgumentParser()
 main_parse.add_argument("yaml", type=str)
